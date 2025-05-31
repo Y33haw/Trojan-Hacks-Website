@@ -1,14 +1,6 @@
 import { Calendar, MapPin, Users, Trophy, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom"; // Import the real React Router Link
 import TypingAnimation from "../components/TypingAnimation";
-
-// Mock Link component
-const Link = ({ to, className, children, ...props }) => {
-  return (
-    <a href={to} className={className} {...props}>
-      {children}
-    </a>
-  );
-};
 
 const Index = () => {
   return (
@@ -47,7 +39,6 @@ const Index = () => {
               <Link to="/register" className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white px-6 py-2 rounded-full font-semibold transition-all duration-300 hover:scale-105">
                 Register
               </Link>
-              
             </div>
           </div>
         </div>
