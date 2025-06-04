@@ -28,6 +28,14 @@ const Team = () => {
       github: "https://github.com/man-samosa",
       email: "mgmkx@trojanhacks.com"
     },
+    {
+      name: "Kai Kallista",
+      role: "Senior Onboarder and Relations",
+      bio: "Coming Soon",
+      image: "/team/kai.png",
+      github: "https://github.com/man-samosa",
+      email: "kai@trojanhacks.com"
+    },
   ];
 
   return (
