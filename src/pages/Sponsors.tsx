@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { ArrowLeft, Download } from "lucide-react";
 
@@ -60,16 +59,38 @@ const Sponsors = () => {
         </div>
       </section>
 
-      {/* Coming Soon */}
+      {/* Sponsors */}
       <section className="pb-16 px-6">
         <div className="container mx-auto">
           <div className="bg-gradient-to-br from-blue-900/40 to-black/40 backdrop-blur-sm rounded-2xl p-12 border border-blue-500/20 text-center max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Sponsors <span className="text-blue-400">Coming Soon</span>
+              Our <span className="text-blue-400">Sponsors</span>
             </h2>
-            <p className="text-xl text-blue-200 mb-8 leading-relaxed">
-              We're actively seeking sponsors to support this amazing event. Check back soon to see who's joining us!
-            </p>
+            <div className="flex flex-col items-center space-y-8">
+              <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center">
+                <a 
+                  href="https://codecrafters.io" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center"
+                >
+                  <img 
+                    src="/logos/code_crafters.png" 
+                    alt="Code Crafters Logo" 
+                    className="h-24 w-auto object-contain"
+                  />
+                  <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
+                    Code Crafters
+                  </span>
+                </a>
+              </div>
+              <p className="text-xl text-blue-200 leading-relaxed">
+                Thank you to our amazing sponsors for supporting this event!
+              </p>
+              <p className="text-lg text-blue-300 italic">
+                More Coming Soon...
+              </p>
+            </div>
           </div>
         </div>
       </section>

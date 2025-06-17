@@ -14,11 +14,19 @@ const Team = () => {
     {
       name: "Aarav J",
       role: "Lead Organizer",
-      bio: "Year 10 student at Kambrya College passionate about robotics and ethical hacking.",
+      bio: "Ethical Hacker, Cybersecurity Enthusiast, @CyberZenDev",
       image: "/team/aarav.png",
       github: "https://github.com/The-UnknownHacker",
       linkedin: "https://www.linkedin.com/in/aarav-jhamb-5268272a6/",
-      email: "aarav@trojanhacks.com"
+      email: "aarav@trohacks.xyz"
+    },
+    {
+      name: "Prabhav R.",
+      role: "Lead Organizer",
+      bio: "Everything in between - filling in the gaps and holes", 
+      image: "/team/prabhav.png",
+      github: "https://github.com/Y33haw",
+      email: "prabhav@trohacks.xyz"
     },
     {
       name: "Methuka P.K.",
@@ -26,7 +34,7 @@ const Team = () => {
       bio: "Year 10 student, passionate about Physics and Engineering",
       image: "/team/methuka.png",
       github: "https://github.com/man-samosa",
-      email: "mgmkx@trojanhacks.com"
+      email: "mgmkx@trohacks.xyz"
     },
     {
       name: "Kai K.",
@@ -34,14 +42,14 @@ const Team = () => {
       bio: "Coming Soon",
       image: "/team/kai.png",
       github: "https://github.com/man-samosa",
-      email: "kai@trojanhacks.com"
+      email: "kai@trohacks.xyz"
     },
     {
       name: "Yuvraj B.",
       role: "Onboarding and Judging",
       bio: "HMU : If you have a buisness idea",
       image: "/team/yuvra.png",
-      email: "uv@trojanhacks.com"
+      email: "uv@trohacks.xyz"
     },
   ];
 
