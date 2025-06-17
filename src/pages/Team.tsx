@@ -12,7 +12,7 @@ const Link = ({ to, className, children, ...props }) => {
 const Team = () => {
   const teamMembers = [
     {
-      name: "Aarav Jhamb",
+      name: "Aarav J",
       role: "Lead Organizer",
       bio: "Year 10 student at Kambrya College passionate about robotics and ethical hacking.",
       image: "/team/aarav.png",
@@ -29,12 +29,19 @@ const Team = () => {
       email: "mgmkx@trojanhacks.com"
     },
     {
-      name: "Kai Kallista",
+      name: "Kai K.",
       role: "Senior Onboarder and Relations",
       bio: "Coming Soon",
       image: "/team/kai.png",
       github: "https://github.com/man-samosa",
       email: "kai@trojanhacks.com"
+    },
+    {
+      name: "Yuvraj B.",
+      role: "Onboarding and Judging",
+      bio: "HMU : If you have a buisness idea",
+      image: "/team/yuvra.png",
+      email: "uv@trojanhacks.com"
     },
   ];
 
