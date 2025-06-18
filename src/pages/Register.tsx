@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { ArrowLeft, Calendar, MapPin, Users, Trophy } from "lucide-react";
+import { ArrowLeft, Calendar, MapPin, Users, Trophy, Award, Star, Gift } from "lucide-react";
 import RSVPForm from "@/components/RSVPForm";
 
 const Register = () => {
@@ -92,8 +91,28 @@ const Register = () => {
                   <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/20">
                     <Trophy className="h-8 w-8 text-blue-400 mb-3" />
                     <h3 className="text-white font-semibold mb-2">Prizes</h3>
-                    <p className="text-blue-200">Amazing prizes (Value TBD)</p>
+                    <p className="text-blue-200">CodeCrafters VIP Access & More!</p>
                   </div>
+                </div>
+
+                {/* Prizes Preview */}
+                <div className="bg-gradient-to-br from-blue-900/40 to-black/40 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/20 mb-8">
+                  <h3 className="text-xl font-bold text-white mb-4">🏆 Amazing Prizes</h3>
+                  <div className="space-y-3">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-8 h-8 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full flex items-center justify-center text-black font-bold text-sm">1</div>
+                      <span className="text-yellow-200">2 Year CodeCrafters VIP Access</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-8 h-8 bg-gradient-to-r from-gray-400 to-gray-600 rounded-full flex items-center justify-center text-black font-bold text-sm">2</div>
+                      <span className="text-gray-200">1 Year CodeCrafters VIP Access</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-8 h-8 bg-gradient-to-r from-amber-600 to-yellow-700 rounded-full flex items-center justify-center text-black font-bold text-sm">3</div>
+                      <span className="text-amber-200">6 Month CodeCrafters VIP Access</span>
+                    </div>
+                  </div>
+                  <p className="text-blue-300 text-sm mt-4">+ More prizes coming soon!</p>
                 </div>
 
                 <div className="bg-gradient-to-br from-blue-900/40 to-black/40 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/20">
