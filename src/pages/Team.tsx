@@ -29,6 +29,14 @@ const Team = () => {
       email: "prabhav@trohacks.xyz"
     },
     {
+      name: "Jaxon B.",
+      role: "Lead Organizer",
+      bio: "Factorio addict", 
+      image: "/team/jaxon.png",
+      github: "https://github.com/beamanj09",
+      email: "beamanj09@trohacks.xyz"
+    },
+    {
       name: "Methuka P.K.",
       role: "Senior Resources Manager",
       bio: "Year 10 student, passionate about Physics and Engineering",
