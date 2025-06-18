@@ -9,9 +9,9 @@ const Sponsors = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <img 
-                src="/logos/logo_white.png" 
-                alt="TroHacks Logo" 
+              <img
+                src="/logos/logo_white.png"
+                alt="TroHacks Logo"
                 className="h-10 w-auto"
               />
               <span className="text-2xl font-bold text-white">Trojan Hacks</span>
@@ -47,7 +47,7 @@ const Sponsors = () => {
             <ArrowLeft className="h-5 w-5" />
             <span>Back to Home</span>
           </Link>
-          
+
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
               Our <span className="text-blue-400">Sponsors</span>
@@ -66,17 +66,20 @@ const Sponsors = () => {
             <h2 className="text-4xl font-bold text-white mb-6">
               Our <span className="text-blue-400">Sponsors</span>
             </h2>
-            <div className="flex flex-col items-center space-y-8">
-              <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center">
-                <a 
-                  href="https://codecrafters.io" 
-                  target="_blank" 
+
+            {/* Sponsors Grid */}
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
+              {/* Code Crafters */}
+              <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center w-72">
+                <a
+                  href="https://codecrafters.io"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center"
                 >
-                  <img 
-                    src="/logos/code_crafters.png" 
-                    alt="Code Crafters Logo" 
+                  <img
+                    src="/logos/code_crafters.png"
+                    alt="Code Crafters Logo"
                     className="h-24 w-auto object-contain"
                   />
                   <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
@@ -84,13 +87,33 @@ const Sponsors = () => {
                   </span>
                 </a>
               </div>
-              <p className="text-xl text-blue-200 leading-relaxed">
-                Thank you to our amazing sponsors for supporting this event!
-              </p>
-              <p className="text-lg text-blue-300 italic">
-                More Coming Soon...
-              </p>
+
+              {/* Hack Club Bank */}
+              <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center w-72">
+                <a
+                  href="https://hackclub.com/bank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center"
+                >
+                  <img
+                    src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ab6701fd3a2bdf1a0a1859bf93889131930f7a4a_hcb-icon-icon-dark.png"
+                    alt="Hack Club Bank Logo"
+                    className="h-24 w-auto object-contain"
+                  />
+                  <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
+                    Hack Club Bank
+                  </span>
+                </a>
+              </div>
             </div>
+
+            <p className="text-xl text-blue-200 leading-relaxed mb-2">
+              Thank you to our amazing sponsors for supporting this event!
+            </p>
+            <p className="text-lg text-blue-300 italic">
+              More Coming Soon...
+            </p>
           </div>
         </div>
       </section>
@@ -103,11 +126,11 @@ const Sponsors = () => {
               Become a <span className="text-blue-400">Sponsor</span>
             </h2>
             <p className="text-xl text-blue-200 mb-8 leading-relaxed">
-              Join our mission to inspire the next generation of cybersecurity professionals. 
+              Join our mission to inspire the next generation of cybersecurity professionals.
               Partner with us to connect with top talent and showcase your commitment to innovation.
             </p>
             <div className="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
-              <a 
+              <a
                 href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/51c16e0023bef3c8872947ea6acfb270bd1638e5_trojan_hacks_prospectus.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -116,7 +139,7 @@ const Sponsors = () => {
                 <Download className="h-5 w-5" />
                 <span>Download Sponsorship Kit</span>
               </a>
-              <Link 
+              <Link
                 to="/contact"
                 className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-black px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 hover:scale-105 w-full md:w-auto inline-block text-center"
               >
@@ -131,9 +154,9 @@ const Sponsors = () => {
       <footer className="bg-black/60 backdrop-blur-sm border-t border-blue-500/20 py-8 px-6">
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <img 
-              src="/logos/logo_white.png" 
-              alt="TroHacks Logo" 
+            <img
+              src="/logos/logo_white.png"
+              alt="TroHacks Logo"
               className="h-8 w-auto"
             />
             <span className="text-xl font-bold text-white">Trojan Hacks</span>
@@ -143,9 +166,9 @@ const Sponsors = () => {
           </p>
           <div className="flex items-center justify-center space-x-2 text-sm text-blue-300">
             <span>Fiscally sponsored by</span>
-            <img 
-              src="/logos/hcb.png" 
-              alt="HCB Logo" 
+            <img
+              src="/logos/hcb.png"
+              alt="HCB Logo"
               className="h-5 w-auto"
             />
             <span>Hack Club Bank</span>
