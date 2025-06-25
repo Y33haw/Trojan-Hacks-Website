@@ -9,32 +9,16 @@ const Sponsors = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <img
-                src="/logos/logo_white.png"
-                alt="TroHacks Logo"
-                className="h-10 w-auto"
-              />
+              <img src="/logos/logo_white.png" alt="TroHacks Logo" className="h-10 w-auto" />
               <span className="text-2xl font-bold text-white">Trojan Hacks</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link to="/" className="text-white hover:text-blue-400 transition-colors font-medium">
-                Home
-              </Link>
-              <Link to="/about" className="text-white hover:text-blue-400 transition-colors font-medium">
-                About
-              </Link>
-              <Link to="/team" className="text-white hover:text-blue-400 transition-colors font-medium">
-                Team
-              </Link>
-              <Link to="/sponsors" className="text-blue-400 font-medium">
-                Sponsors
-              </Link>
-              <Link to="/contact" className="text-white hover:text-blue-400 transition-colors font-medium">
-                Contact
-              </Link>
-              <Link to="/register" className="text-white hover:text-blue-400 transition-colors font-medium">
-                Register
-              </Link>
+              <Link to="/" className="text-white hover:text-blue-400 transition-colors font-medium">Home</Link>
+              <Link to="/about" className="text-white hover:text-blue-400 transition-colors font-medium">About</Link>
+              <Link to="/team" className="text-white hover:text-blue-400 transition-colors font-medium">Team</Link>
+              <Link to="/sponsors" className="text-blue-400 font-medium">Sponsors</Link>
+              <Link to="/contact" className="text-white hover:text-blue-400 transition-colors font-medium">Contact</Link>
+              <Link to="/register" className="text-white hover:text-blue-400 transition-colors font-medium">Register</Link>
             </div>
           </div>
         </div>
@@ -47,7 +31,6 @@ const Sponsors = () => {
             <ArrowLeft className="h-5 w-5" />
             <span>Back to Home</span>
           </Link>
-
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
               Our <span className="text-blue-400">Sponsors</span>
@@ -68,20 +51,11 @@ const Sponsors = () => {
             </h2>
 
             {/* Sponsors Grid */}
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
+            <div className="flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-8 mb-8">
               {/* Code Crafters */}
               <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center w-72">
-                <a
-                  href="https://codecrafters.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center"
-                >
-                  <img
-                    src="/logos/code_crafters.png"
-                    alt="Code Crafters Logo"
-                    className="h-24 w-auto object-contain"
-                  />
+                <a href="https://codecrafters.io" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+                  <img src="/logos/code_crafters.png" alt="Code Crafters Logo" className="h-24 w-auto object-contain" />
                   <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
                     Code Crafters
                   </span>
@@ -90,19 +64,20 @@ const Sponsors = () => {
 
               {/* Hack Club Bank */}
               <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center w-72">
-                <a
-                  href="https://hackclub.com/bank"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center"
-                >
-                  <img
-                    src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ab6701fd3a2bdf1a0a1859bf93889131930f7a4a_hcb-icon-icon-dark.png"
-                    alt="Hack Club Bank Logo"
-                    className="h-24 w-auto object-contain"
-                  />
+                <a href="https://hackclub.com/bank" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+                  <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ab6701fd3a2bdf1a0a1859bf93889131930f7a4a_hcb-icon-icon-dark.png" alt="Hack Club Bank Logo" className="h-24 w-auto object-contain" />
                   <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
                     Hack Club Bank
+                  </span>
+                </a>
+              </div>
+
+              {/* Flatlogic */}
+              <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center w-72">
+                <a href="https://flatlogic.com/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
+                  <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/0301af17a6bed06665b39ce9ed02ebe98e9199a5_download.png" alt="Flatlogic Logo" className="h-24 w-auto object-contain" />
+                  <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
+                    Flatlogic
                   </span>
                 </a>
               </div>
@@ -111,9 +86,7 @@ const Sponsors = () => {
             <p className="text-xl text-blue-200 leading-relaxed mb-2">
               Thank you to our amazing sponsors for supporting this event!
             </p>
-            <p className="text-lg text-blue-300 italic">
-              More Coming Soon...
-            </p>
+            <p className="text-lg text-blue-300 italic">More Coming Soon...</p>
           </div>
         </div>
       </section>
@@ -154,11 +127,7 @@ const Sponsors = () => {
       <footer className="bg-black/60 backdrop-blur-sm border-t border-blue-500/20 py-8 px-6">
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <img
-              src="/logos/logo_white.png"
-              alt="TroHacks Logo"
-              className="h-8 w-auto"
-            />
+            <img src="/logos/logo_white.png" alt="TroHacks Logo" className="h-8 w-auto" />
             <span className="text-xl font-bold text-white">Trojan Hacks</span>
           </div>
           <p className="text-blue-200 mb-2">
@@ -166,11 +135,7 @@ const Sponsors = () => {
           </p>
           <div className="flex items-center justify-center space-x-2 text-sm text-blue-300">
             <span>Fiscally sponsored by</span>
-            <img
-              src="/logos/hcb.png"
-              alt="HCB Logo"
-              className="h-5 w-auto"
-            />
+            <img src="/logos/hcb.png" alt="HCB Logo" className="h-5 w-auto" />
             <span>Hack Club Bank</span>
           </div>
         </div>
