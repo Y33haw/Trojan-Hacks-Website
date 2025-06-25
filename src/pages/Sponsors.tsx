@@ -75,7 +75,7 @@ const Sponsors = () => {
               {/* Flatlogic */}
               <div className="bg-white/10 p-6 rounded-xl flex flex-col items-center w-72">
                 <a href="https://flatlogic.com/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
-                  <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/0301af17a6bed06665b39ce9ed02ebe98e9199a5_download.png" alt="Flatlogic Logo" className="h-24 w-auto object-contain" />
+                  <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ebe83112ed29d8864f2a18143af48653e50f8232_download-removebg-preview.png" alt="Flatlogic Logo" className="h-24 w-auto object-contain" />
                   <span className="mt-4 text-xl font-semibold text-blue-400 hover:text-blue-300 transition-colors text-center">
                     Flatlogic
                   </span>
